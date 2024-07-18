@@ -1,0 +1,16 @@
+.main-image{
+    margin-top: 90px;
+    background: url(./assets/house.jpg) no-repeat center center;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.main-image h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
