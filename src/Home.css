@@ -1,0 +1,87 @@
+.main-image{
+    margin-top: 80px;
+    background: url(./assets/house.jpg) no-repeat center center;
+    height: 575px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.main-image h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+.main-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text h2 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 50px;
+    color: #25272E;
+}
+
+.main-text p {
+    font-size: 20px;
+    font-weight: 200;
+    color: #25272E;
+    margin-top: 0;
+    width: 80%;
+    text-align: center;
+}
+
+.main-facts{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 38px;
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    text-align: center;
+}
+
+.fact h3{
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.vertical-line {
+    border-left: 1px solid #25272E;
+    height: 210px;
+    margin-top: 60px;
+}
+
+.main-img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-weight: 200;
+    font-size: 28px;
+    background-color: #39487C;
+}
+
+.main-img-text img {
+    width: 580px;
+}
+
+.colored-part {
+    color: white;
+    display: flex;
+    padding: 0px 80px;
+}

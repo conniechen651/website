@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     color: white;
-    height: 90px;
+    height: 80px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -26,5 +26,9 @@
     text-decoration: none;
     margin-right: 40px;
     font-weight: 100;
+}
+
+.navbar-links a:hover {
+    color: #b1b1b1;
 }
 
