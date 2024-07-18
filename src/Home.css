@@ -40,7 +40,7 @@
 
 .main-facts{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
     margin-top: 38px;
 }
