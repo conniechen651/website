@@ -92,3 +92,48 @@
     color: white;
     display: flex;
 }
+
+@media screen and (max-width: 780px) {
+    .main-img-text {
+        flex-wrap: wrap;
+    }
+    .main-img-text img {
+        width: 100vw;
+    }
+    .main-img-text p {
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .main-facts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 38px;
+    }
+
+    .fact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        text-align: center;
+        padding: 0px;
+
+    }
+    
+    .fact h3{
+        font-size: 5vw;
+        font-weight: 200;
+        margin-bottom: 0;
+    }
+
+    .vertical-line {
+        border: 1px solid #25272E;
+        height: 0px;
+        width: 80vw;
+        margin-top: 60px;
+    }
+}
