@@ -11,8 +11,9 @@
 }
 
 .navbar h3{
-    font-size:40px;
+    font-size: 40px;
     margin-left: 20px;
+    line-height: 1.7rem;
 }
 
 .navbar a {
@@ -33,3 +34,56 @@
     color: #b1b1b1;
 }
 
+.navbar-burger-links{
+    margin-top: 80px;
+    font-size: 1.5rem;
+    margin-bottom: -80px;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar-burger-links ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-burger-links a{
+    text-decoration: none;
+    color: #25272E;
+    padding:10px;
+}
+
+.navbar-burger-links a:hover{
+    color: #b1b1b1;
+}
+
+/* Default styles for the burger menu icon */
+.burger-icon {
+    display: none; /* hide by default */
+    background-color: transparent;
+    border: none;
+}
+
+.burger-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+  
+  /* Media query for medium screens */
+@media screen and (max-width: 1024px) {
+/* Show the burger menu icon */
+    .burger-icon {
+        display: block;
+    }
+
+    /* Hide the navigation menu */
+    .navbar-links {
+        display: none;
+    }
+
+}

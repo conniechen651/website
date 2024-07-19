@@ -4,7 +4,7 @@ import './Footer.css'
 export default function Footer() { 
     return(
         <footer>
-            <small>© 2024 Your business here</small>
+            <small>© 2024 JAMR partners</small>
         </footer>
     )
 }

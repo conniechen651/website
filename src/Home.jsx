@@ -6,11 +6,14 @@ export default function Home() {
     return(
         <>
             <div className="main-image">
-                <h1>LOREM IPSUM</h1>
+                <h1>Consistency is our priority</h1>
             </div>
             <div className="main-text">
-                <h2>LOREM IPSUM DOLOR</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>About JAMR Partners</h2>
+                <p>JAMR Partners, LLC is a UCLA student-run real estate fund focused on capturing asymmetric opportunities 
+                    across the single-family rental market. Through our refined investment framework, we are capable of 
+                    consistently achieving outsized returns while effectively managing risk.
+                </p>
             </div>
             <div className="main-facts">
                 <div className="fact">

@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
- 
 }
 
 .main-image h1{
@@ -13,6 +12,9 @@
     color: white;
     text-align: center;
     font-weight: 100;
+    width: 30%;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .main-text {
@@ -52,11 +54,12 @@
     justify-content: center;
     width: 280px;
     text-align: center;
+    padding: 10px;
 }
 
 .fact h3{
-    font-size: 40px;
-    font-weight: 100;
+    font-size: 3vw;
+    font-weight: 200;
     margin-bottom: 0;
 }
 
@@ -70,18 +73,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    font-weight: 200;
-    font-size: 28px;
     background-color: #39487C;
+    width: 100%;
+    margin: 50px 0px 10px 0px;
+}
+
+.main-img-text p{
+    margin: 20px;
+    font-weight: 200;
+    font-size: 2vw;
 }
 
 .main-img-text img {
-    width: 580px;
+    width: 50%;
 }
 
 .colored-part {
     color: white;
     display: flex;
-    padding: 0px 80px;
 }
