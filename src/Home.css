@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .main-image h1{
@@ -94,6 +95,13 @@
 }
 
 @media screen and (max-width: 780px) {
+    .main-image h1{
+        font-size: 2rem;
+    }
+
+    .main-text h2 {
+        font-size: 1.8rem;
+    }
     .main-img-text {
         flex-wrap: wrap;
     }
